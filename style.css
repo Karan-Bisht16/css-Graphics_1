@@ -1,0 +1,172 @@
+*{
+    background-color: #ffeecc;
+    margin: 0;
+    padding: 0;
+}
+#main{
+    position: relative;
+    margin-top: 200px;
+}
+.clothing{
+    background-color: #93673c;
+    border: 2px #eeedcf solid;
+} 
+.skin{
+    background-color: #eeedcf;
+}
+.thought{
+    border-radius: 50%;
+    border: 3.5px #93673c solid;
+}
+#arms{
+    width: 200px;
+    height: 190px;
+    border-radius: 50%;
+    margin: 0px auto;
+    z-index: -1;
+}
+#torso{
+    width: 130px;
+    height: 150px;
+    margin: auto;
+    margin-top: 50px;
+}
+#covering1{
+    width:4px;
+    height:16px;
+    background-color: #93673c; /*red;*/
+    position: relative;
+    top: -2px;
+    left: -2px;
+}
+#covering2{
+    width:130px;
+    height:45px;
+    background-color: #93673c; /*blue;*/
+    position: relative;
+    top: -18px;
+    left: 2px;
+}
+#neck-a{
+    width: 50px;
+    height: 50px;
+    background-color: #93673c; 
+    border-radius: 40% 40% 0% 0%;
+    position: relative;
+    top: -158px;
+    margin: 0px auto;
+    z-index: 1;
+}
+#neck-b{
+    width: 46px;
+    height: 50px;
+    background-color: #eeedcf;
+    border-radius: 50% 50% 4% 4%;
+    position: absolute; 
+    top: -15px;
+    left: 2px;
+    z-index: 2;
+}
+#base{
+    width: 150%;
+    height: 3px;
+    background-color: #93673c;
+    position: relative;
+    top: -3px;
+    left:-25%
+}
+#hair{
+    width: 78px;
+    height: 100px;
+    background-color: #93673c;
+    border-radius: 45% 45% 50% 40%;
+    margin: auto;
+    position: relative;
+    top: -14px;
+    z-index: 3;
+}
+#earL{
+    width:10px;
+    height:10px;
+    background-color: #eeedcf;
+    border: 2px #93673c solid;
+    border-radius: 50% 30% 30% 50%;
+    position: absolute;
+    top: 40px;
+    left:-8px;
+}
+#earL > p{
+    height:1px;
+    width:4px;
+    color: #93673c;;
+    position: absolute;
+    top:-5.5px;
+    left: 2px;
+}
+#earR{
+    width:11px;
+    height:11px;
+    background-color: #eeedcf;
+    border: 2px #93673c solid;
+    border-radius: 30% 50% 50% 30%; 
+    position: absolute;
+    top: 40.5px;
+    left:70px;
+}
+#earR > p{
+    height: 0.1px;
+    width: 0.1px;
+    color: #93673c;
+    border: transparent;
+    position: absolute;
+    top:-7px;
+    font-size: 20px;
+}
+#face{
+    width: 73px;
+    height: 87px;
+    border-radius: 45% 45% 50% 40%;
+    position: absolute;
+    top: 10.5px;
+    left: 2px;
+}
+img{
+    width: 80px;
+    height: 98px;
+    border-radius: 50% 45% 50% 50%;
+    background-color: transparent;
+    position: absolute;
+    top: -2px;
+    left:-4px;
+}
+#bubble1{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -85px;
+    left: -105px;
+}
+#bubble1 > p{
+    width: 10px;
+    height: 10px;
+    font-size: 25px;
+    font-family: 'Borel', cursive;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+#bubble2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 80px;
+    left: 55px;
+}
+#bubble3{
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 20px;
+    left: 24px;
+}
